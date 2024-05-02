@@ -18,6 +18,7 @@ const baseConfig = _.merge(
 
 export default [
   {
+    name: 'js',
     ..._.merge(_.cloneDeep(baseConfig), {
       files:   ['**/*.js', '**/*.cjs', '**/*.mjs'],
       ignores: [
@@ -28,6 +29,7 @@ export default [
     }),
   },
   {
+    name: 'json',
     ..._.merge(_.cloneDeep(eslint.json.default), {
       files:   ['**/*.json', '**/*.jsonc', '**/*.json5'],
       ignores: [

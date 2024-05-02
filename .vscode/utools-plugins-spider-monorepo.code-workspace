@@ -1,0 +1,18 @@
+{
+  "folders": [
+    {
+      "name": "Root",
+      "path": "../"
+    },
+    {
+      "name": "utools-plugins-spider",
+      "path": "../packages/utools-plugins-spider"
+    },
+    {
+      "name": "utools-plugins-spider-docs",
+      "path": "../packages/utools-plugins-spider-docs"
+    }
+  ],
+  "settings": {
+  }
+}
